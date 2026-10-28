@@ -2,6 +2,9 @@
 
 **Run an agent, a local model's tool loop or an install script with outbound network limited to an allowlist. Every connection attempt is logged; on macOS the OS enforces it.**
 
+<!-- agent-preflight -->
+> **Also a Claude Code skill.** `egress-lock` is part of [agent-preflight](https://github.com/thinx-pro/agent-preflight), 16 offline checks for coding agents: `/plugin marketplace add thinx-pro/agent-preflight` then `/plugin install egress-lock@agent-preflight`, and ask Claude in plain words.
+
 ![node 18+](https://img.shields.io/badge/node-18%2B-3f8f5a) ![zero dependencies](https://img.shields.io/badge/dependencies-0-3f8f5a) ![macOS enforced](https://img.shields.io/badge/macOS-sandbox--exec%20enforced-3f8f5a) ![license MIT](https://img.shields.io/badge/license-MIT-blue)
 
 ```text
