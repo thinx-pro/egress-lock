@@ -1,0 +1,19 @@
+{
+  "name": "egress-lock",
+  "version": "0.1.0",
+  "description": "Run an agent, model or install script with outbound network limited to an allowlist; every attempt logged. macOS-enforced with sandbox-exec.",
+  "type": "module",
+  "bin": {
+    "egress-lock": "bin/egress-lock.js"
+  },
+  "files": ["bin", "src", "LICENSE", "README.md"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["egress", "allowlist", "proxy", "sandbox", "ai-agents", "local-llm", "exfiltration", "supply-chain", "claude-code"],
+  "license": "MIT",
+  "repository": "github:thinx-pro/egress-lock"
+}
